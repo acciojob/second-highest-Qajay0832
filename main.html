@@ -33,8 +33,11 @@ for (let i=0;i<=arr.length-1;i++){
 						second=arr[i]
 					}
 }
-if (arr.length==0 || arr.length==1 || second==undefined){
+if (arr.length==0 || arr.length==1 ){
     return(-Infinity)
+}
+else if(second==undefined){
+	return -Infinity;
 }
 else{
     return(second)
